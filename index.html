@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="Pie.css" />
+
+    <title>Memento</title>
+  </head>
+  <body>
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img
+          width="120px"
+          height="68px"
+          src="imgs/banco-de-credito-bcp-82.jpg"
+          alt=""
+        />
+      </a>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Productos</a></li>
+        <li>
+          <a href="">Promociones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Tarjeta Credito</a></li>
+            <li><a href="">Tarjeta Debito</a></li>
+            <li><a href="">Beneficios Viaje</a></li>
+            <li><a href="">Plin</a></li>
+          </ul>
+        </li>
+        <li><a href="">Zona Digital</a></li>
+        <li><a href="#contactanos">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--Seccion Productos-->
+    <section class="seccion-productos">
+      <div class="div-gral-productos">
+        <div class="div-prod-texto">
+          <h2>Seccion Productos</h2>
+          <p>
+            El producto se refiere a cualquier bien, servicio o idea que una
+            empresa ofrece y pone a disposición del mercado con el objetivo de
+            satisfacer las necesidades y deseos de los consumidores.
+            Especificamente el producto forma parte de las variables de lo que
+            se denomina mezcla de marketing o marketing mix. El objetivo que se
+            establece en esta investigación consiste en explicar los diversos
+            atributos que posee el producto como factores fundamentales del
+            marketing. El enfoque de la presente investigación es de carácter
+            cualitativo de tipo descriptivo. Los hallazgos destacados en la
+            investigación resaltan que la marca es un activo estratégico que va
+            más allá de la identificación física de un producto. Es una
+            herramienta clave para construir relaciones con los consumidores,
+            generar confianza y establecer una posición distintiva en el
+            mercado. Por otra parte la etiqueta es una parte fundamental del
+            producto, porque sirve para identificarlo, describirlo,
+            diferenciarlo, dar un servicio al cliente y por supuesto, también
+            para cumplir con las leyes, normativas o regulaciones establecidas
+            para cada industria o sector.
+          </p>
+          <button>Mas info</button>
+        </div>
+
+        <div class="div-prod-img">
+          <img src="imgs/Productos.jpg" />
+        </div>
+      </div>
+    </section>
+    <!--Seccion Zona Digital-->
+    <section class="seccion-zondig">
+      <div class="div-gral-zondig">
+        <div class="div-zondig-texto">
+          <h2>Seccion Zonal Digital</h2>
+          <p>
+            Zona Digital: solución para conexión a Internet mediante tecnología
+            inalámbrica implementada en el espacio público donde las personas
+            que tengan un dispositivo con tecnología WiFi pueden conectarse
+            rápidamente y sin problemas a través de puntos de acceso a un
+            servicio Internet.
+          </p>
+        </div>
+        <div class="div-zondig-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pcgEcQzp-QE?si=dPgkEQ6ifma9tn9d"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--Seccion Contactanos-->
+    <section class="seccion-formulario" id="contactanos">
+      <div class="div-cont-formulario">
+        <h2>Formulario de ayuda</h2>
+        <p>Complete todos los campos</p>
+        <form class="formulario">
+          <!--INPUT:TEXT-->
+          <div class="campo">
+            <label for="nombre:">Nombres Completos:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingrese sus nombres:"
+            />
+          </div>
+          <!--LISTA DESPEGABLE-->
+          <div class="campo">
+            <label for="nombres"> Pais: </label>
+            <select id="pais" name="pais">
+              <option value="">Seleccione un Pais</option>
+              <option value="peru">Peru</option>
+              <option value="argentina">Argentina</option>
+              <option value="colombia">Colombia</option>
+              <option value="mexico">Mexico</option>
+            </select>
+          </div>
+          <!--CHECHBOX-->
+          <div class="campo">
+            <label>Intereses: </label>
+            <ul class="lista-checkbox">
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="ingles" />
+                  ingles</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="espaniol" />
+                  espaniol</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="frances" />
+                  frances</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="checkbox" name="Intereses" value="portugues" />
+                  portugues</label
+                >
+              </li>
+            </ul>
+          </div>
+          <!--RADIO-->
+          <div class="campo">
+            <label>Sexo: </label>
+            <ul class="lista-radio">
+              <li>
+                <label
+                  ><input type="radio" name="Sexo:" value="m" />
+                  Masculino</label
+                >
+              </li>
+              <li>
+                <label
+                  ><input type="radio" name="Sexo:" value="f" /> Femenino</label
+                >
+              </li>
+            </ul>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </body>
+  <!-- PIE DE PAGINA -->
+
+  <section id="footer">
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo y nombre de sitio -->
+        <div class="footer-brand">
+          <img
+            src="imgs/banco-de-credito-bcp-82.jpg"
+            alt="Logo"
+            class="footer-logo"
+          />
+          <p>Banco de Credito</p>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+
+        <!-- Enlaces legales -->
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="/Documentos/3.politica-privacidad.pdf"
+            >Política de Privacidad</a
+          >
+          <!-- Dentro de href llama a un documento pdf con la poltica-->
+          <a href="#">Términos y Condiciones</a>
+          <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+          <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+        </div>
+
+        <!-- Redes sociales con íconos personalizados -->
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+              alt="Facebook"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+              alt="Instagram"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              alt="LinkedIn"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+              alt="Twitter"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </section>
+</html>
